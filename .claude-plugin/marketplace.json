@@ -1,6 +1,10 @@
 {
   "name": "app-demo-recorder",
   "owner": { "name": "nathankim0" },
+  "metadata": {
+    "description": "Agent skill for clean, fast-paced mobile app demo clips from an Android emulator or iOS simulator.",
+    "version": "0.1.0"
+  },
   "plugins": [
     {
       "name": "app-demo-recorder",
