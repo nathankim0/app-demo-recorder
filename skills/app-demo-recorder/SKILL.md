@@ -51,11 +51,11 @@ Look at the strip, not at your script: confirm each intended step actually happe
 ## 5. Cut the waiting
 
 ```bash
-$S tighten in.mp4 out.mp4          # frozen stretches -> 0.35 s, final result screen kept 1.5 s
+$S tighten in.mp4 out.mp4          # idle lead-in cut, frozen stretches -> 0.35 s, final result screen kept 1.5 s
 $S speed  in.mp4 out.mp4 1.3       # optional uniform speed-up
 ```
 
-`tighten` finds stretches where the picture does not change and shortens them, so taps follow each other like a person who knows the app. Typical clips lose about half their length. Check a tightened clip with `strip` too: if a small change (typing a digit, toggling a chip) was cut, lower `--noise`; if pauses remain, lower `--min-freeze`.
+`tighten` starts the clip 0.4 s before the first real action (the idle seconds after `start` are never perfectly still, so freeze detection alone misses them) and shortens every stretch where the picture does not change, so taps follow each other like a person who knows the app. Typical clips lose about half their length. Check a tightened clip with `strip` too: if a small change (typing a digit, toggling a chip) was cut, lower `--noise`; if pauses remain, lower `--min-freeze`.
 
 ## 6. Deliver
 
