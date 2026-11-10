@@ -1,0 +1,8 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+app-demo-clips/
+__pycache__/
