@@ -1,0 +1,11 @@
+{
+  "name": "app-demo-recorder",
+  "owner": { "name": "nathankim0" },
+  "plugins": [
+    {
+      "name": "app-demo-recorder",
+      "source": "./",
+      "description": "Clean, fast app demo clips from an Android emulator or iOS simulator."
+    }
+  ]
+}

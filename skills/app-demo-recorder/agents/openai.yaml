@@ -1,0 +1,4 @@
+interface:
+  display_name: "App Demo Recorder"
+  short_description: "Clean, fast demo clips from an Android emulator or iOS simulator"
+  default_prompt: "Use $app-demo-recorder to record a short demo clip of this app's main feature."

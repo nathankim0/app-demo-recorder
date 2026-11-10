@@ -1,0 +1,8 @@
+{
+  "name": "app-demo-recorder",
+  "version": "0.1.0",
+  "description": "Record clean, fast-paced app demo clips from an Android emulator or iOS simulator: host-side capture, clean status bar, automatic removal of waits between taps.",
+  "author": { "name": "nathankim0" },
+  "repository": "https://github.com/nathankim0/app-demo-recorder",
+  "license": "MIT"
+}
