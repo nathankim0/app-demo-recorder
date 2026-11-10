@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## v0.1.0 (2026-11-11)
+
 ### Added
 
 - `app-demo-recorder` skill: workflow for recording one clean clip per feature from an Android emulator or iOS simulator (build and account choice, fast emulator, rehearsal, batched actions, deleting data created for a shot, checking every clip).
